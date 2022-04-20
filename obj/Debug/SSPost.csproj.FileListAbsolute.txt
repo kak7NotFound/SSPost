@@ -1,0 +1,11 @@
+C:\Users\kaks\RiderProjects\SSPost\bin\Debug\SSPost.exe.config
+C:\Users\kaks\RiderProjects\SSPost\bin\Debug\SSPost.exe
+C:\Users\kaks\RiderProjects\SSPost\bin\Debug\SSPost.pdb
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.csproj.AssemblyReference.cache
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.Properties.Resources.resources
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.csproj.GenerateResource.cache
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.csproj.CoreCompileInputs.cache
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.exe
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.pdb
+C:\Users\kaks\RiderProjects\SSPost\obj\Debug\SSPost.Form1.resources
