@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace SSPost
 {
@@ -7,6 +8,13 @@ namespace SSPost
         public StorageItemChangerForm()
         {
             InitializeComponent();
+            
         }
+
+        public void setFields()
+        {
+            
+        }
+        
     }
 }
