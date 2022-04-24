@@ -21,13 +21,27 @@ namespace SSPost
             {
                 while (reader.Read())
                 {
-                    comboBox4.Items.AddRange(
-                        new object[]
-                        {
-                            reader.GetValue(0),
-                        });
+                    comboBox4.Items.AddRange(new object[] {reader.GetValue(0),});
+                    comboBox3.Items.AddRange(new object[] {reader.GetValue(0),});
                 }
             }
+            
+            using (var reader =
+                   Program.database.GetReader($"select storagePlace from Items"))
+            {
+                while (reader.Read()) {comboBox5.Items.AddRange(new object[] {reader.GetValue(0),});}
+            }
+            
+            using (var reader =
+                   Program.database.GetReader($"select address from Customers"))
+            {
+                while (reader.Read())
+                {
+                    comboBox1.Items.AddRange(new object[] {reader.GetValue(0),});
+                    comboBox2.Items.AddRange(new object[] {reader.GetValue(0),});
+                }
+            }
+            
         }
         
 
