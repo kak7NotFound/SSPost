@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using SSTattoo;
 
 namespace SSPost
 {
@@ -14,8 +12,11 @@ namespace SSPost
         /// </summary>
         [DllImport("kernel32.dll")]
         static extern bool AttachConsole(int dwProcessId);
+
         private const int ATTACH_PARENT_PROCESS = -1;
-        
+
+        static public DataBase database = new DataBase();
+
         [STAThread]
         static void Main(string[] args)
         {
