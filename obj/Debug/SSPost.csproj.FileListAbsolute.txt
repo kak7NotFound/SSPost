@@ -75,3 +75,5 @@ C:\Users\kaks\Documents\GitHub\SSPost\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\kaks\Documents\GitHub\SSPost\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\kaks\Documents\GitHub\SSPost\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.csproj.CopyComplete
+C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.StorageItemChangerForm.resources
+C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.SuccessForm.resources

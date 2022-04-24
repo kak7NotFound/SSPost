@@ -133,6 +133,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeStoragePlaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeStoragePlaceForm.Designer.cs">
+      <DependentUpon>ChangeStoragePlaceForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataBase.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -166,6 +172,15 @@
     <Compile Include="StorageItemChangerForm.Designer.cs">
       <DependentUpon>StorageItemChangerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuccessForm.Designer.cs">
+      <DependentUpon>SuccessForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChangeStoragePlaceForm.resx">
+      <DependentUpon>ChangeStoragePlaceForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StorageItemChangerForm.resx">
       <DependentUpon>StorageItemChangerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuccessForm.resx">
+      <DependentUpon>SuccessForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

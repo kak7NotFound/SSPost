@@ -64,5 +64,24 @@ namespace SSPost
                 return;
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var a = dataGridView1.CurrentRow.Cells;
+                new StorageItemChangerForm(a[0].Value.ToString(), a[1].Value.ToString(), Int32.Parse(a[2].Value.ToString()), a[3].Value.ToString(), a[4].Value.ToString(), a[5].Value.ToString(),a[6].Value.ToString(), a, this).Show();
+
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new SuccessForm().Show();
+        }
     }
 }
