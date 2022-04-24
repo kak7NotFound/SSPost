@@ -158,7 +158,6 @@ namespace SSPost
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(178, 21);
             this.comboBox4.TabIndex = 17;
-            this.comboBox4.TextUpdate += new System.EventHandler(this.comboBox4_TextUpdate);
             // 
             // label6
             // 
