@@ -5,14 +5,22 @@ namespace SSPost
 {
     public partial class SendPackageForm : Form
     {
+        public static bool open = false;
         public SendPackageForm()
         {
+            open = true;
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            
+        }
+        
+
+        private void SendPackageForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            open = false;
         }
     }
 }

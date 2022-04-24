@@ -19,16 +19,19 @@ namespace SSPost
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (GetPackageForm.open) return;
             new GetPackageForm().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (SendPackageForm.open) return;
             new SendPackageForm().Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (StorageForm.open) return;
             new StorageForm().Show();
         }
     }

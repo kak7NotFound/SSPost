@@ -75,6 +75,7 @@ namespace SSPost
             this.Controls.Add(this.dataGrid1);
             this.Name = "SendPackageForm";
             this.Text = "Отправить посылку";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SendPackageForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize) (this.dataGrid1)).EndInit();
             this.ResumeLayout(false);
         }

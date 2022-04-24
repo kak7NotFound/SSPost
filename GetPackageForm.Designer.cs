@@ -169,7 +169,8 @@ namespace SSPost
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "GetPackageForm";
-            this.Text = "GetPackageForm";
+            this.Text = "Создать запрос на отправление";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.GetPackageForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize) (this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

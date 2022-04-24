@@ -84,7 +84,8 @@ namespace SSPost
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGrid1);
             this.Name = "StorageForm";
-            this.Text = "StorageForm";
+            this.Text = "Просмотр Склада";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.StorageForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize) (this.dataGrid1)).EndInit();
             this.ResumeLayout(false);
         }
