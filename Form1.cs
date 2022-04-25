@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using SSTattoo;
 
 namespace SSPost
 {
@@ -8,6 +9,8 @@ namespace SSPost
         public Form1()
         {
             InitializeComponent();
+            Console.Write(DataBase.strExeFilePath.Substring(0, DataBase.strExeFilePath.Length-10));
+
         }
 
         private void button1_Click(object sender, EventArgs e)

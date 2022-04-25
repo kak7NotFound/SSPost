@@ -67,6 +67,7 @@ namespace SSPost
             this.button1.TabIndex = 2;
             this.button1.Text = "Применить";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -76,6 +77,7 @@ namespace SSPost
             this.button2.TabIndex = 3;
             this.button2.Text = "Отмена";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -107,7 +109,7 @@ namespace SSPost
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 11);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Посылка от";
+            this.label3.Text = "Место на складе:";
             // 
             // ChangeStoragePlaceForm
             // 

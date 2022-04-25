@@ -77,3 +77,4 @@ C:\Users\kaks\Documents\GitHub\SSPost\bin\Debug\System.Threading.Tasks.Extension
 C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.csproj.CopyComplete
 C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.StorageItemChangerForm.resources
 C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.SuccessForm.resources
+C:\Users\kaks\Documents\GitHub\SSPost\obj\Debug\SSPost.ChangeStoragePlaceForm.resources
